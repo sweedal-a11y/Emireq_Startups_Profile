@@ -32,7 +32,7 @@ const HeroSection = () => {
             </div>
             <div className="pb-1">
               <h1 className="text-white text-[28px] sm:text-[36px] font-bold leading-tight mb-1 tracking-[-0.02em]">NexaScore</h1>
-              <p className="text-white/75 text-[15px] sm:text-[17px] mb-3 max-w-[520px] leading-[1.5]">
+              <p className="text-white/75 text-[15px] sm:text-[17px] mb-3 max-w-[520px] leading-[1.5] whitespace-nowrap">
                 Credit intelligence for the unbanked — decisions in 48 hours, not 48 days.
               </p>
               <div className="flex flex-wrap items-center gap-2">

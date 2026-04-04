@@ -1,11 +1,6 @@
 const tabs = ['Overview', 'Product', 'Funding', 'Market', 'Team'];
 
-interface TabNavigationProps {
-  activeTab: string;
-  onTabChange: (tab: string) => void;
-}
-
-const TabNavigation = ({ activeTab, onTabChange }: TabNavigationProps) => {
+const TabNavigation = ({ activeTab, onTabChange }) => {
   return (
     <div className="bg-white border-b border-[#e5e7eb]">
       <div className="mx-auto px-4 sm:px-6 lg:px-10 xl:px-12">
